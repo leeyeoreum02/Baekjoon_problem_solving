@@ -12,9 +12,9 @@ for predict_num in news_predict:
     error = answer - predict_num
     
     print(error, end=' ')
-
+    
 # answer
-
+    
 l, p = map(int, input().split())
 
 news_predict = map(int, input().split())
